@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="SignUpPage.css">
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <img class="twittericon "src="images/twitterwhite.png"></img>
+        <h1 class="titles">Join Twitter today</h1>
+        <input class="textbars email" type="text" placeholder="Phone, email, or username"></input>
+        <input class="textbars password" type="text" placeholder="Password"></input>
+        <div class="alerts">
+            <img class="alerticon" src="images/alerticon.svg"></img>
+            <p class="alert"></p>
+        </div>
+        <h3 class="titles">Choose some interests</h3>
+        <div class="interests">
+           <input class="checkboxes sports" type="checkbox">
+           <label class="labels">Sports</label>
+           <input class="checkboxes music" type="checkbox">
+           <label class="labels">Music</label>
+           <input class="checkboxes tech" type="checkbox">
+           <label class="labels">Tech</label>
+        </div>
+        <button class="buttons signUp">Create account</button>
+        <div class="NoAccSignUp">
+            <p class="noaccount">Have an account already?</p>
+            <a class="signInLink" href="SignInPage.html">Sign In</a>
+        </div>
+    </div>  
+    
+    <script src="index.js"></script>
+</body>
+</html>
